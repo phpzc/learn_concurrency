@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377CB91E1DA1466B002AFEB6 /* ManagerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB91C1DA1466B002AFEB6 /* ManagerThread.cpp */; };
+		377CB9211DA2873D002AFEB6 /* thread_guard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB91F1DA2873D002AFEB6 /* thread_guard.cpp */; };
+		377CB9241DA2A681002AFEB6 /* scope_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB9221DA2A681002AFEB6 /* scope_thread.cpp */; };
 		37F9C8F01D9FD3FA0018F897 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37F9C8EF1D9FD3FA0018F897 /* main.cpp */; };
 		37F9C8F71D9FD4730018F897 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 37F9C8F61D9FD4730018F897 /* readme.md */; };
 /* End PBXBuildFile section */
@@ -24,6 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		377CB91C1DA1466B002AFEB6 /* ManagerThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ManagerThread.cpp; sourceTree = "<group>"; };
+		377CB91D1DA1466B002AFEB6 /* ManagerThread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ManagerThread.hpp; sourceTree = "<group>"; };
+		377CB91F1DA2873D002AFEB6 /* thread_guard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread_guard.cpp; sourceTree = "<group>"; };
+		377CB9201DA2873D002AFEB6 /* thread_guard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = thread_guard.hpp; sourceTree = "<group>"; };
+		377CB9221DA2A681002AFEB6 /* scope_thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scope_thread.cpp; sourceTree = "<group>"; };
+		377CB9231DA2A681002AFEB6 /* scope_thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scope_thread.hpp; sourceTree = "<group>"; };
 		37F9C8EC1D9FD3FA0018F897 /* Concurrency */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Concurrency; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F9C8EF1D9FD3FA0018F897 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		37F9C8F61D9FD4730018F897 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
@@ -40,6 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		377CB91B1DA1464C002AFEB6 /* chap2 */ = {
+			isa = PBXGroup;
+			children = (
+				377CB91C1DA1466B002AFEB6 /* ManagerThread.cpp */,
+				377CB91D1DA1466B002AFEB6 /* ManagerThread.hpp */,
+				377CB91F1DA2873D002AFEB6 /* thread_guard.cpp */,
+				377CB9201DA2873D002AFEB6 /* thread_guard.hpp */,
+				377CB9221DA2A681002AFEB6 /* scope_thread.cpp */,
+				377CB9231DA2A681002AFEB6 /* scope_thread.hpp */,
+			);
+			name = chap2;
+			sourceTree = "<group>";
+		};
 		37F9C8E31D9FD3FA0018F897 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +82,7 @@
 		37F9C8EE1D9FD3FA0018F897 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				377CB91B1DA1464C002AFEB6 /* chap2 */,
 				37F9C8EF1D9FD3FA0018F897 /* main.cpp */,
 			);
 			path = Concurrency;
@@ -122,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377CB9241DA2A681002AFEB6 /* scope_thread.cpp in Sources */,
 				37F9C8F71D9FD4730018F897 /* readme.md in Sources */,
+				377CB91E1DA1466B002AFEB6 /* ManagerThread.cpp in Sources */,
 				37F9C8F01D9FD3FA0018F897 /* main.cpp in Sources */,
+				377CB9211DA2873D002AFEB6 /* thread_guard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +276,7 @@
 				37F9C8F51D9FD3FA0018F897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

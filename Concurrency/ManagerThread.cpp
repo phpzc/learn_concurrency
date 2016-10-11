@@ -54,8 +54,6 @@ T parallel_accumlate(Iterator first,Iterator last, T& init)
     //硬件核心数 返回失败的话  这里设置最小2个线程
     unsigned long const num_theads =  std::min(hardward_threads !=0 ? hardward_threads : 2, max_threads);
     
-    LOG("num_theads");
-    LOG(num_theads);
     
     //每个线程处理的数量
     unsigned long const block_size = length / num_theads;
@@ -174,5 +172,8 @@ void ManagerThread::run()
     std::thread::id thisId = std::this_thread::get_id();
     
     print("this thread id", thisId);
-
+    
+    SPRINTF("this thread id", thisId);
+    SPRINTF("this thread 2 id", thisId);
+    SPRINTF("this thread 3 id", thisId);
 }

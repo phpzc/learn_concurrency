@@ -27,7 +27,7 @@
 // for tuple
 #include <tuple>
 #include <complex> // 复数
-
+#include <sstream>
 using namespace std;
 
 
@@ -61,6 +61,44 @@ void print(const T& firstArg, const Types& ... args)
 
 #endif
 
+
+
+//自动格式化成一行 打印 辅助输出类
+class Sprintf{
+    public:
+    stringstream stream;
+    
+    Sprintf()
+    {
+        
+    }
+    
+    template <typename T>
+    void P(const T& arg)
+    {
+        stream << arg << endl;
+        
+        cout << stream.str();
+        
+        stream.clear();
+    }
+    
+    
+    template <typename T, typename ... Types>
+    void P(const T& firstArg, const Types& ... args)
+    {
+        stream << firstArg;
+        this->P(args ...);
+    }
+};
+
+
+//打印多类型值到一行 快捷方法
+#define SPRINTF(first, args...) \
+{ \
+    Sprintf sp;\
+    sp.P(first, ##args);\
+}
 
 
 //泛型异常 打印函数

@@ -8,13 +8,26 @@
 
 #include <iostream>
 
+#include "common.h"
+
 #include "ManagerThread.hpp"
+
+#include "thread_guard.hpp"
+#include "threadsafe_stack.hpp"
+
+#include "SwapObject.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    ManagerThread mt;
-    mt.run();
+    //ManagerThread mt;
+    //mt.run();
 
+    //RUN_CLASS(ManagerThread);
+    
+    //RUN_CLASS(ThreadSafeSimple);
+    
+    
+    RUN_CLASS(TestSwap);
     return 0;
 }

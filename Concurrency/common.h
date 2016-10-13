@@ -28,6 +28,14 @@
 #include <tuple>
 #include <complex> // 复数
 #include <sstream>
+
+
+//
+#include <mutex>
+#include <stack>
+#include <memory>
+
+
 using namespace std;
 
 
@@ -128,11 +136,19 @@ print(MAKE_STR(class test #class_name begin :));
 #define CLASS_TRACE_END(class_name) \
 print(MAKE_STR(class test #class_name end!), "========================");
 
+
+//测试类打印快速宏
+#define TEST_CLASS(name) \
+name(){\
+    CLASS_TRACE_BEGIN(name);  \
+}\
+~name(){\
+    CLASS_TRACE_END(name);\
+}
+
 //运行类 进行test 宏
 #define RUN_CLASS(name) \
-name* run_##name = new name(); \
-run_##name->run();\
-delete run_##name;\
-run_##name = nullptr;
+std::shared_ptr<name> run_##name(std::make_shared<name>()); \
+run_##name->run();
 
 #endif /* common_h */

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3732B7A11DAF513500CA06F1 /* SwapObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3732B79F1DAF513500CA06F1 /* SwapObject.cpp */; };
 		377CB91E1DA1466B002AFEB6 /* ManagerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB91C1DA1466B002AFEB6 /* ManagerThread.cpp */; };
 		377CB9211DA2873D002AFEB6 /* thread_guard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB91F1DA2873D002AFEB6 /* thread_guard.cpp */; };
 		377CB9241DA2A681002AFEB6 /* scope_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB9221DA2A681002AFEB6 /* scope_thread.cpp */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3732B79F1DAF513500CA06F1 /* SwapObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwapObject.cpp; sourceTree = "<group>"; };
+		3732B7A01DAF513500CA06F1 /* SwapObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SwapObject.hpp; sourceTree = "<group>"; };
 		377CB91C1DA1466B002AFEB6 /* ManagerThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ManagerThread.cpp; sourceTree = "<group>"; };
 		377CB91D1DA1466B002AFEB6 /* ManagerThread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ManagerThread.hpp; sourceTree = "<group>"; };
 		377CB91F1DA2873D002AFEB6 /* thread_guard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread_guard.cpp; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 			children = (
 				37A6BBF91DACDF4A007EA70E /* threadsafe_stack.cpp */,
 				37A6BBFA1DACDF4A007EA70E /* threadsafe_stack.hpp */,
+				3732B79F1DAF513500CA06F1 /* SwapObject.cpp */,
+				3732B7A01DAF513500CA06F1 /* SwapObject.hpp */,
 			);
 			name = chap3;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				37F9C8F71D9FD4730018F897 /* readme.md in Sources */,
 				377CB91E1DA1466B002AFEB6 /* ManagerThread.cpp in Sources */,
 				37A6BBFB1DACDF4A007EA70E /* threadsafe_stack.cpp in Sources */,
+				3732B7A11DAF513500CA06F1 /* SwapObject.cpp in Sources */,
 				37F9C8F01D9FD3FA0018F897 /* main.cpp in Sources */,
 				377CB9211DA2873D002AFEB6 /* thread_guard.cpp in Sources */,
 			);

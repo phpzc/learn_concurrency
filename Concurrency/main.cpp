@@ -17,6 +17,8 @@
 
 #include "SwapObject.hpp"
 
+#include "CallOnce.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     
@@ -28,6 +30,8 @@ int main(int argc, const char * argv[]) {
     //RUN_CLASS(ThreadSafeSimple);
     
     
-    RUN_CLASS(TestSwap);
+    //RUN_CLASS(TestSwap);
+    
+    RUN_CLASS(CallOnce);
     return 0;
 }

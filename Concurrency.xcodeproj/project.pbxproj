@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		3732B7A11DAF513500CA06F1 /* SwapObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3732B79F1DAF513500CA06F1 /* SwapObject.cpp */; };
 		3732B7A41DAF612500CA06F1 /* CallOnce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3732B7A21DAF612500CA06F1 /* CallOnce.cpp */; };
+		373853001E0F9FA7004A9FEC /* QuickSortTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 373852FE1E0F9FA7004A9FEC /* QuickSortTest.cpp */; };
+		37471C7B1DDEF1B40097BF55 /* SafeQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37471C791DDEF1B40097BF55 /* SafeQueue.cpp */; };
 		377CB91E1DA1466B002AFEB6 /* ManagerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB91C1DA1466B002AFEB6 /* ManagerThread.cpp */; };
 		377CB9211DA2873D002AFEB6 /* thread_guard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB91F1DA2873D002AFEB6 /* thread_guard.cpp */; };
 		377CB9241DA2A681002AFEB6 /* scope_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 377CB9221DA2A681002AFEB6 /* scope_thread.cpp */; };
 		37A6BBFB1DACDF4A007EA70E /* threadsafe_stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37A6BBF91DACDF4A007EA70E /* threadsafe_stack.cpp */; };
+		37EA80C31DE4190600329209 /* FutureTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37EA80C11DE4190600329209 /* FutureTest.cpp */; };
 		37F9C8F01D9FD3FA0018F897 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37F9C8EF1D9FD3FA0018F897 /* main.cpp */; };
 		37F9C8F71D9FD4730018F897 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 37F9C8F61D9FD4730018F897 /* readme.md */; };
 /* End PBXBuildFile section */
@@ -34,6 +37,10 @@
 		3732B7A01DAF513500CA06F1 /* SwapObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SwapObject.hpp; sourceTree = "<group>"; };
 		3732B7A21DAF612500CA06F1 /* CallOnce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CallOnce.cpp; sourceTree = "<group>"; };
 		3732B7A31DAF612500CA06F1 /* CallOnce.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CallOnce.hpp; sourceTree = "<group>"; };
+		373852FE1E0F9FA7004A9FEC /* QuickSortTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSortTest.cpp; sourceTree = "<group>"; };
+		373852FF1E0F9FA7004A9FEC /* QuickSortTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QuickSortTest.hpp; sourceTree = "<group>"; };
+		37471C791DDEF1B40097BF55 /* SafeQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SafeQueue.cpp; sourceTree = "<group>"; };
+		37471C7A1DDEF1B40097BF55 /* SafeQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SafeQueue.hpp; sourceTree = "<group>"; };
 		377CB91C1DA1466B002AFEB6 /* ManagerThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ManagerThread.cpp; sourceTree = "<group>"; };
 		377CB91D1DA1466B002AFEB6 /* ManagerThread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ManagerThread.hpp; sourceTree = "<group>"; };
 		377CB91F1DA2873D002AFEB6 /* thread_guard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread_guard.cpp; sourceTree = "<group>"; };
@@ -43,6 +50,8 @@
 		37A6BBF71DACBE4E007EA70E /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		37A6BBF91DACDF4A007EA70E /* threadsafe_stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = threadsafe_stack.cpp; sourceTree = "<group>"; };
 		37A6BBFA1DACDF4A007EA70E /* threadsafe_stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = threadsafe_stack.hpp; sourceTree = "<group>"; };
+		37EA80C11DE4190600329209 /* FutureTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FutureTest.cpp; sourceTree = "<group>"; };
+		37EA80C21DE4190600329209 /* FutureTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FutureTest.hpp; sourceTree = "<group>"; };
 		37F9C8EC1D9FD3FA0018F897 /* Concurrency */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Concurrency; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F9C8EF1D9FD3FA0018F897 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		37F9C8F61D9FD4730018F897 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
@@ -59,6 +68,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3732B7A51DAF734000CA06F1 /* chap4 */ = {
+			isa = PBXGroup;
+			children = (
+				37471C791DDEF1B40097BF55 /* SafeQueue.cpp */,
+				37471C7A1DDEF1B40097BF55 /* SafeQueue.hpp */,
+				37EA80C11DE4190600329209 /* FutureTest.cpp */,
+				37EA80C21DE4190600329209 /* FutureTest.hpp */,
+				373852FE1E0F9FA7004A9FEC /* QuickSortTest.cpp */,
+				373852FF1E0F9FA7004A9FEC /* QuickSortTest.hpp */,
+			);
+			name = chap4;
+			sourceTree = "<group>";
+		};
 		377CB91B1DA1464C002AFEB6 /* chap2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +127,7 @@
 		37F9C8EE1D9FD3FA0018F897 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				3732B7A51DAF734000CA06F1 /* chap4 */,
 				37A6BBF81DACD509007EA70E /* chap3 */,
 				377CB91B1DA1464C002AFEB6 /* chap2 */,
 				37F9C8EF1D9FD3FA0018F897 /* main.cpp */,
@@ -173,6 +196,9 @@
 				377CB9241DA2A681002AFEB6 /* scope_thread.cpp in Sources */,
 				37F9C8F71D9FD4730018F897 /* readme.md in Sources */,
 				377CB91E1DA1466B002AFEB6 /* ManagerThread.cpp in Sources */,
+				37471C7B1DDEF1B40097BF55 /* SafeQueue.cpp in Sources */,
+				37EA80C31DE4190600329209 /* FutureTest.cpp in Sources */,
+				373853001E0F9FA7004A9FEC /* QuickSortTest.cpp in Sources */,
 				37A6BBFB1DACDF4A007EA70E /* threadsafe_stack.cpp in Sources */,
 				3732B7A11DAF513500CA06F1 /* SwapObject.cpp in Sources */,
 				37F9C8F01D9FD3FA0018F897 /* main.cpp in Sources */,

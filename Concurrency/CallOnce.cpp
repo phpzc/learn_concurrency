@@ -88,7 +88,9 @@ void CallOnce::newFunc()
     }
     //这里往下的代码是不确定结果的 多线程情况下
     
-    SPRINTF("new func ",i);
+    
+    //其实是一种 数据竞争
+    SPRINTF("new func ",i); 
 }
 
 void CallOnce::newFuncCompare()

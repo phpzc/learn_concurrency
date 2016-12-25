@@ -19,6 +19,10 @@
 
 #include "CallOnce.hpp"
 
+#include "SafeQueue.hpp"
+
+#include "FutureTest.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     
@@ -32,6 +36,11 @@ int main(int argc, const char * argv[]) {
     
     //RUN_CLASS(TestSwap);
     
-    RUN_CLASS(CallOnce);
+    //RUN_CLASS(CallOnce);
+    
+    //RUN_CLASS(SafeQueue);
+    
+    RUN_CLASS(FutureTest);
+    
     return 0;
 }

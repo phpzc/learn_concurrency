@@ -44,6 +44,7 @@ void debug_info(const T& t)
 {
     cout << t << endl;
 }
+
 #define _DEBUG 1
 #ifdef _DEBUG
 #define LOG(msg) debug_info(msg)
@@ -148,7 +149,7 @@ name(){\
 
 //运行类 进行test 宏
 #define RUN_CLASS(name) \
-std::shared_ptr<name> run_##name(std::make_shared<name>()); \
-run_##name->run();
+{ std::shared_ptr<name> run_##name(std::make_shared<name>()); \
+run_##name->run(); }
 
 #endif /* common_h */

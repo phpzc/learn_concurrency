@@ -35,6 +35,8 @@
 #include <stack>
 #include <memory>
 
+//atomic
+#include <atomic>
 
 using namespace std;
 

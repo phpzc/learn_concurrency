@@ -23,6 +23,8 @@
 
 #include "FutureTest.hpp"
 
+#include "AtomicTest.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     
@@ -40,7 +42,8 @@ int main(int argc, const char * argv[]) {
     
     //RUN_CLASS(SafeQueue);
     
-    RUN_CLASS(FutureTest);
-    
+    //RUN_CLASS(FutureTest);
+
+    RUN_CLASS(AtomicTest);
     return 0;
 }

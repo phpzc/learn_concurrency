@@ -107,6 +107,13 @@
 			name = chap3;
 			sourceTree = "<group>";
 		};
+		37DC0EDE1E2315D2008CFFCE /* chap5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = chap5;
+			sourceTree = "<group>";
+		};
 		37F9C8E31D9FD3FA0018F897 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +134,7 @@
 		37F9C8EE1D9FD3FA0018F897 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				37DC0EDE1E2315D2008CFFCE /* chap5 */,
 				3732B7A51DAF734000CA06F1 /* chap4 */,
 				37A6BBF81DACD509007EA70E /* chap3 */,
 				377CB91B1DA1464C002AFEB6 /* chap2 */,
